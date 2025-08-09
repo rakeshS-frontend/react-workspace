@@ -1,13 +1,14 @@
 import React from 'react'
-import Black2 from './Black'
-import AssignmentOne from './AssignmentOne'
+import InputTextBoxComponent from './InputTextBoxComponent';
+import FormDataComponent from './FormDataComponent';
+
 function BlackDispaly() {
     return (
-        <div>
+        <>
             <h3>BlackDispaly - Black Component.</h3>
-            <AssignmentOne />
-        </div>
+            <FormDataComponent />
+        </>
     )
 }
 
-export { BlackDispaly };
+export default BlackDispaly;

@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { BlackDispaly } from './components/BlackDispaly'
-BlackDispaly
+import BlackDispaly  from './components/BlackDispaly'
+
 function App() {
   const [display, setDisplay] = useState(true);
   return (
